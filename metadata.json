@@ -1,0 +1,7 @@
+{
+  "name": "Ampac FireFinder Simulator",
+  "description": "A high-fidelity interactive simulation of the Ampac FireFinder Plus fire indicator panel for firefighter training and familiarization.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
