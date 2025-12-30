@@ -93,7 +93,7 @@ const Home: React.FC<HomeProps> = ({ onSelectPanel }) => {
       </main>
 
       <footer className="mt-20 text-neutral-600 text-xs font-bold uppercase tracking-widest text-center border-t border-neutral-900 pt-8 w-full max-w-6xl">
-        Australia & New Zealand Fire Standards Training • v1.5.0
+        Fire Panel Simulator is developed following available documentation and best practices.
       </footer>
     </div>
   );
