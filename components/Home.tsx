@@ -18,16 +18,18 @@ const Home: React.FC<HomeProps> = ({ onSelectPanel }) => {
     {
       id: 'PERTRONIC_F220' as AppView,
       name: 'Pertronic F220',
-      status: 'Available',
+      status: 'Coming Soon',
       badge: 'Advanced Visual',
       description: 'Analogue addressable fire alarm system common in ANZ. Features a high-resolution color display and intuitive event mapping.',
+      disabled: true,
     },
     {
       id: 'ZONESENSE_PLUS' as AppView,
       name: 'Ampac ZoneSense Plus',
-      status: 'Available',
+      status: 'Coming Soon',
       badge: 'Obsolete',
       description: 'Fire panel no longer meets Australian Standards but may still be in use.',
+      disabled: true,
     },
     {
       id: 'NOTIFIER' as any,
